@@ -1,0 +1,28 @@
+.contact {
+    width: 100%;
+    background: #F3F3F3 url(../../assets/contact.png) no-repeat;
+    background-size: contain;
+    background-position: right center;
+    border-radius: 45px;
+    padding: 5rem 3rem;
+    margin-bottom: 6rem;
+}
+
+.form-group {
+    margin: 1.5rem 0;
+}
+
+.form-group input,
+.form-group textarea {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 14px;
+}
+
+@media(max-width: 768px) {
+    .contact {
+        background: #F3F3F3;
+        padding: 3rem 2rem;
+        margin-bottom: 3rem;
+    }
+}

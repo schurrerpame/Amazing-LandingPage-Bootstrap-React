@@ -1,0 +1,140 @@
+.bdark,
+.bgreen,
+.blight {
+    border: 2px solid var(--color-dark);
+    margin: 1rem;
+    border: 1px solid #191A23;
+    box-shadow: 0px 5px 0px #191A23;
+    border-radius: 45px;
+    align-items: center;
+    padding: 2rem;
+
+
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 210px;
+
+}
+
+.bdark {
+    background: var(--color-dark);
+}
+
+.bgreen {
+    background: var(--color-highlight);
+}
+
+.blight {
+    background: var(--color-grey);
+}
+
+.bdark span,
+.bgreen span,
+.blight span {
+    display: table;
+    padding: .1rem .5rem;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 28px;
+    border-radius: 5px;
+}
+
+.blight span {
+    background: var(--color-highlight);
+}
+
+.bgreen span {
+    background: var(--color-grey);
+}
+
+.bdark span {
+    background: var(--color-grey);
+}
+
+.readmore {
+    display: block;
+    bottom: 0;
+    color: var(--color-dark);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.readmore svg {
+    font-size: 26px;
+    margin-right: .5rem;
+
+    color: var(--color-dark);
+}
+
+.bdark .readmore,
+.bdark .readmore svg {
+    color: #fff;
+}
+
+.readmore:hover{
+transform: scale(1.1);
+color: var(--color-dark);
+}
+
+
+.bdark .readmore:hover{
+    transform: scale(1.1);
+    color: #fff;
+    }
+
+    
+
+@media(max-width: 768px) {
+    .box {
+
+        position: relative;
+        min-height: 60px;
+    }
+
+    .readmore {
+        position: absolute;
+        bottom: -7em;
+    }
+
+}
+
+@media(max-width: 510px) {
+    .img-services {
+        width: auto;
+        max-width: 50%;
+        margin-top: -100px;
+        z-index: 9999;
+    }
+
+    .readmore {
+        position: absolute;
+        bottom: -5em;
+        font-size: 16px;
+
+    }
+
+    .bdark,
+    .bgreen,
+    .blight {
+        min-height: 200px;
+        padding: 1rem;
+    }
+
+    .bdark span,
+    .bgreen span,
+    .blight span {
+        display: table;
+        padding: .1rem .5rem;
+
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+
+
+
+}

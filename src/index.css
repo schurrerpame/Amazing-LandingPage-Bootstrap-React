@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --font-base: 'Space Grotesk', sans-serif;
+    --color-text: #000000;
+    --color-highlight: #B9FF66;
+    --color-dark: #191A23;
+    --color-grey: #F3F3F3;
+}
+
+* {
+    font-family: var(--font-base);
+
+}
+
+.section-padding {
+    margin: 130px 0;
+}
+
+@media(max-width: 768px) {
+    .section-padding {
+        margin: 50px 0;
+    }  
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+h2 {
+
+    font-size: 40px;
+    line-height: 51px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 38px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 77px;
+}
+
+@media(max-width: 768px) {
+    .title {
+        font-size: 43px;
+        line-height: 55px;
+    }
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="email"],
+input[type="text"] {
+    border-radius: 14px;
+    padding: 15px;
+}
+
+.btn-positivus {
+    padding: 15px 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #191A23;
+    border-radius: 14px;
+    border: none;
+    color: #fff;
+
+}
+
+.btn-positivus:hover {
+    transform: scale(1.1);
+}
+
+@media(max-width: 768px) {
+    .btn-positivus {
+        padding: 15px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}

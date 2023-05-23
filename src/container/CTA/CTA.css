@@ -1,0 +1,23 @@
+.cta{
+background: #F3F3F3;
+border-radius: 45px;
+position: relative;
+padding:4rem  3rem;
+margin: 6rem 0;
+}
+
+.cta img{
+margin-top: -100px;
+    position: absolute;
+}
+
+@media(max-width: 960px) {
+    
+    .cta{
+        padding:2rem;
+        text-align: center;
+        margin: 4rem 1rem;
+        }
+
+
+}

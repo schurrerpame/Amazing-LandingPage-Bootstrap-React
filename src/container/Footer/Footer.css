@@ -1,0 +1,131 @@
+footer {
+    background: var(--color-dark);
+    margin-top: 3rem;
+    padding: 3rem;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    color: #fff;
+}
+
+ul.navbar-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul.navbar-footer li {
+    margin: 0 1rem;
+}
+
+ul.navbar-footer li a {
+    color: var(--color-dark);
+    color: #fff;
+
+}
+
+ul.info-contact {
+    margin: 3rem 0;
+    padding: 0;
+    max-width: 300px;
+
+}
+
+.info-contact li {
+    margin: .8rem 0;
+    padding: 0;
+}
+
+.info-contact li span {
+    background: var(--color-highlight);
+    color: var(--color-dark);
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 0 .5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.form-news {
+    border-radius: 14px;
+    padding: 3rem 1.5rem;
+    background-color: #292A32;
+    margin: 3rem 0rem;
+}
+.form-news input[type="email"], .btn {
+    width: 100%;
+    padding: 15px;
+
+}
+
+
+footer .btn-positivus{
+    background: var(--color-highlight);
+    color:var(--color-dark);
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.rights {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-top: 1px solid #FFFFFF;
+    padding-top: 3rem;
+}
+
+.rights a {
+    color: #fff;
+    margin-left: 3rem;
+}
+
+@media(max-width: 768px) {
+    footer {
+        text-align: center;
+        padding: 3rem 1.5rem 2rem;
+    }
+
+    ul.navbar-footer {
+        flex-direction: column;
+        text-align: center;
+        margin: 2rem auto;
+    }
+
+    .navbar-footer li a {
+        text-decoration: none;
+        margin: .5rem auto;
+        display: block;
+
+    }
+
+    ul.info-contact {
+        margin: 3rem auto;
+    }
+
+ 
+
+    .rights {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rights a {
+
+        margin-left: 0;
+    }
+
+   
+
+    .rights {
+        padding-top: 3rem;
+        margin-top: 3rem;
+    }
+}

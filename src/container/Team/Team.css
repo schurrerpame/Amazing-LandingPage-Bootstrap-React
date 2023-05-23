@@ -1,0 +1,63 @@
+.card-team{
+    background: #FFFFFF;
+border: 1px solid #191A23;
+box-shadow: 0px 5px 0px #191A23;
+border-radius: 45px;
+padding:2rem 1rem 0rem;
+margin: 0 .3rem 1.5rem;
+min-height: 250px;
+max-width: 390px;
+
+}
+
+.card-team-header{ 
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+border-bottom: 1px solid #000;
+padding-bottom:1rem;
+margin-bottom: 1rem;
+}
+.card-team-header img{
+width: 70px;
+
+}
+
+
+.card-team-header span{
+    display: block;
+    font-weight: 700;
+}
+
+
+.card-team-header a{
+    align-self: flex-start;
+    align-items: end;
+  
+}
+
+.card-team-header a svg{
+    font-size: 20px;
+    color: #000;
+    background: var(--color-highlight);
+}
+
+.card-team-header a svg:hover{
+    background: #FFFFFF;
+    transform: scale(1.1);
+}
+.card-team p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+padding:0 .5rem;
+
+}
+
+@media(max-width: 768px) {
+    .card-team{
+        margin: 1.5rem auto;
+        max-width: 460px;
+    }
+}

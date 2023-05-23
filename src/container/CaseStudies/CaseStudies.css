@@ -1,0 +1,77 @@
+.case-studies {
+    background: var(--color-dark);
+    margin: 1rem auto;
+    border-radius: 45px;
+    color: #fff;
+    padding: 2rem 0 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.case-studies-item {
+    display: inline-block;
+
+}
+
+.case-studies p {
+    padding: 0 1rem;
+}
+
+.case-studies a {
+    color: var(--color-highlight);
+    display: block;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.case-studies a svg {
+    font-size: 26px;
+}
+
+.case-studies a:hover {
+    color: var(--color-grey);
+}
+
+@media(max-width: 768px) {
+
+
+    .case-studies {
+        padding: 0;
+
+        background: transparent;
+        display: flex;
+        justify-content: flex-start; 
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        padding-bottom: 0;
+        margin: 0;
+      
+        
+    }
+
+    .case-studies-item {
+        display: inline-block;
+        min-width:96%;
+        border: none;
+        background: var(--color-dark);
+        border-radius: 45px;
+        color: #fff;
+        padding: 2rem 1rem 1.5rem;
+        margin: 1rem;
+    }
+
+    .case-studies p {
+        margin-top: 2rem;
+    }
+}
+
+
+.case-studies div {
+    border-right: 1px solid #fff;
+}
+
+.case-studies div:last-child {
+    border: none;
+}
